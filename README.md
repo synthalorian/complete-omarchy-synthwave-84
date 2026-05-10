@@ -2,6 +2,19 @@
 
 My personal Omarchy Linux setup featuring the **Synthwave '84** theme — deep purples, electric magentas, and hot pinks straight out of a neon-soaked 1984 that never was.
 
+## One-Command Install
+
+```bash
+curl -sL https://raw.githubusercontent.com/synthalorian/complete-omarchy-synthwave-84/master/install.sh | bash
+```
+
+Or clone and run:
+```bash
+git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.complete-omarchy-synthwave-84 && ~/.complete-omarchy-synthwave-84/install.sh
+```
+
+---
+
 ## What's Included
 
 ### Theme: Synthwave '84
@@ -27,23 +40,21 @@ My personal Omarchy Linux setup featuring the **Synthwave '84** theme — deep p
 - **btop** — system monitor
 - **Neovim** — editor colorscheme
 
-### Fonts
+### Fonts & Cursors
 
-- **3270 Nerd Font** — terminal font (small, crisp)
-- **Phinger Cursors** — mouse pointer theme (dark variant)
-
-### Icons
-
-- **Candy Icons** — icon pack (`candy-icons-git`)
+- **3270 Nerd Font** — terminal font
+- **Phinger Cursors** — mouse pointer (dark variant)
+- **Candy Icons** — icon pack
 
 ## Directory Structure
 
 ```
 .
+├── install.sh          # One-command installer
 ├── README.md
 ├── SETUP.md
 ├── themes/
-│   └── synthwave84/
+│   └── synthwave84/    # Main theme
 │       ├── backgrounds/
 │       ├── alacritty.toml
 │       ├── btop.theme
@@ -55,51 +66,33 @@ My personal Omarchy Linux setup featuring the **Synthwave '84** theme — deep p
 │       ├── walker.css
 │       └── waybar.css
 ├── config/
-│   ├── hypr/
-│   │   ├── bindings.conf
-│   │   ├── looknfeel.conf
-│   │   ├── autostart.conf
-│   │   └── envs.conf
-│   ├── waybar/
-│   │   ├── config.jsonc
-│   │   ├── style.css
-│   │   └── modules/
-│   ├── ghostty/config
-│   ├── kitty/kitty.conf
-│   ├── alacritty/alacritty.toml
-│   ├── fastfetch/config.jsonc
-│   └── starship.toml
-├── sddm/
-│   └── synthwave84/  (logo.png, lock.png, entry.png, etc.)
-└── plymouth/
-    └── synthwave84/  (logo.png, bullet.png, etc.)
-```
-
-## Quick Start
-
-```bash
-# Clone the repo
-git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/dotfiles
-
-# Follow SETUP.md for full installation instructions
+│   ├── hypr/          # User Hyprland overrides
+│   ├── waybar/        # Waybar config
+│   ├── ghostty/
+│   ├── kitty/
+│   ├── alacritty/
+│   ├── fastfetch/
+│   └── starship/
+├── sddm/              # SDDM theme
+└── plymouth/          # Plymouth boot splash
 ```
 
 ## Requirements
 
 - **Omarchy Linux** — https://omarchy.org/
-- **Arch Linux** based
-- **Hyprland** as the window manager
+- Arch Linux based
+- Hyprland window manager
 
 ## Screenshots
 
-See the theme README in `themes/synthwave84/`.
+See `themes/synthwave84/README.md`.
 
 ## Credits
 
-- Omarchy: https://omarchy.org/
-- Phinger Cursors: https://github.com/Philogag/PhingerCursors
-- Candy Icons: https://github.com/Elena-atanuka/Candy-icons
-- 3270 Nerd Font: Part of `nerd-fonts`
+- [Omarchy](https://omarchy.org/)
+- [Phinger Cursors](https://github.com/Philogag/PhingerCursors)
+- [Candy Icons](https://github.com/Elena-atanuka/Candy-icons)
+- 3270 Nerd Font (via `nerd-fonts`)
 
 ---
 
