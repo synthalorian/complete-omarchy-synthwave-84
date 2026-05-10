@@ -1,0 +1,10 @@
+{
+  "custom/weather": {
+    "format": "{}°",
+    "tooltip": true,
+    "interval": 300,
+    "exec": "wttrbar --nerd --fahrenheit --location \"Lakeland\"",
+    "return-type": "json",
+    "on-click": "curl -s 'wttr.in/Lakeland?format=3' | xargs -I {} notify-send 'Weather' {}"
+  }
+}
