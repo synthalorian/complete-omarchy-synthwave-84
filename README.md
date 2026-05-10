@@ -1,15 +1,16 @@
 # Complete Omarchy Synthwave '84
 
-My personal Omarchy Linux setup featuring the **Synthwave '84** theme — deep purples, electric magentas, and hot pinks straight out of a neon-soaked 1984 that never was. Also includes the **Archwave** vaporwave theme.
+My personal Omarchy Linux setup featuring the **Synthwave '84** theme — deep purples, electric magentas, and hot pinks straight out of a neon-soaked 1984 that never was.
 
 ## What's Included
 
-### Custom Themes
+### Theme: Synthwave '84
 
-| Theme | Description |
-|-------|-------------|
-| **Synthwave '84** | Neon purple/magenta palette, synthwave aesthetics |
-| **Archwave** | Vaporwave pastels — pinks, cyans, dreamy purples |
+- Deep purple background (#240037)
+- Electric purple borders (#8f00ff)
+- Hot pink highlights (#ff007f)
+- Neon yellow accents (#ffff66)
+- Cyan accents (#00ffff)
 
 ### Components Themed
 
@@ -42,31 +43,17 @@ My personal Omarchy Linux setup featuring the **Synthwave '84** theme — deep p
 ├── README.md
 ├── SETUP.md
 ├── themes/
-│   ├── synthwave84/
-│   │   ├── backgrounds/
-│   │   ├── alacritty.toml
-│   │   ├── btop.theme
-│   │   ├── hyprland.conf
-│   │   ├── hyprlock.conf
-│   │   ├── mako.ini
-│   │   ├── neovim.lua
-│   │   ├── swayosd.css
-│   │   ├── walker.css
-│   │   └── waybar.css
-│   └── archwave/
+│   └── synthwave84/
 │       ├── backgrounds/
 │       ├── alacritty.toml
-│       ├── ghostty.conf
-│       ├── kitty.conf
+│       ├── btop.theme
 │       ├── hyprland.conf
 │       ├── hyprlock.conf
 │       ├── mako.ini
-│       ├── btop.theme
+│       ├── neovim.lua
 │       ├── swayosd.css
 │       ├── walker.css
-│       ├── waybar.css
-│       ├── neovim.lua
-│       └── icons.theme
+│       └── waybar.css
 ├── config/
 │   ├── hypr/
 │   │   ├── bindings.conf
@@ -105,7 +92,7 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/do
 
 ## Screenshots
 
-See individual theme READMEs in `themes/synthwave84/` and `themes/archwave/`.
+See the theme README in `themes/synthwave84/`.
 
 ## Credits
 
