@@ -1,0 +1,17 @@
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.swp
+*.swo
+*~
+
+# Credentials and secrets
+*.env
+.env
+credentials.json
+secrets.json
+*.key
+*.pem
+config/git/config  # Contains user email/name
