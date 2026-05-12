@@ -88,12 +88,12 @@
     "tooltip-format": "Devices connected: {num_connections}",
     "on-click": "omarchy-launch-bluetooth"
   },
-  "pulseaudio": {
+  "wireplumber": {
     "format": "{volume}% {icon}",
     "format-muted": "󰝟 {volume}%",
     "on-click": "ghostty --class=Wiremix -e wiremix",
     "on-click-right": "omarchy-launch-or-focus-tui wiremix",
-    "on-click-middle": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-middle": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
     "tooltip-format": "{volume}% | {format_source}",
     "tooltip-format-muted": "Muted ({volume}%)",
     "scroll-step": 5,

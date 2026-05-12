@@ -23,7 +23,7 @@
     "memory",
     "custom/gpu",
     "cpu",
-    "pulseaudio",
+    "wireplumber",
     "battery"
   ]
 }
