@@ -35,6 +35,7 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 - **SwayOSD** — on-screen display
 - **Walker** — app launcher
 - **Alacritty** — terminal
+- **Foot** — terminal (Wayland native)
 - **Ghostty** — terminal
 - **Kitty** — terminal
 - **btop** — system monitor
