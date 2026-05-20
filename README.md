@@ -28,8 +28,8 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 ### Components Themed
 
 - **Hyprland** — window manager (borders, colors)
-- **Waybar** — status bar (3270 Nerd Font, custom styling)
-- **SDDM** — login screen theme
+- **Waybar** — status bar (3270 Nerd Font, custom styling, purple/yellow accent)
+- **SDDM** — login screen (purple bg, yellow frame, dark purple logo)
 - **Plymouth** — boot splash theme
 - **Mako** — notification daemon
 - **SwayOSD** — on-screen display
