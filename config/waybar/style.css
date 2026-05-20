@@ -2,9 +2,9 @@
 
 @define-color bg @background;
 @define-color fg @foreground;
-@define-color rd1 #ff9b71;
-@define-color dark-bg #11111b;
-@define-color hover-bg #313244;
+@define-color accent @primary;
+@define-color surface @surface;
+@define-color dark-bg #0A011A;
 
 * {
   font-family: '3270 Nerd Font';
@@ -18,7 +18,7 @@
 tooltip {
   background: @dark-bg;
   border-radius: 15px;
-  border: 1px solid @rd1;
+  border: 1px solid @accent;
 }
 
 tooltip label {
@@ -42,11 +42,10 @@ window#waybar.hidden {
 .modules-right {
   background: transparent;
   margin: 5px;
-  /* margin-top: 5px; */
 }
 
 #workspaces {
-  background-color: @dark-bg;
+  background-color: @surface;
   margin: 2px 4px;
   padding: 0 5px;
   border-radius: 20px;
@@ -63,24 +62,24 @@ window#waybar.hidden {
 }
 
 #workspaces button:hover {
-  background-color: @hover-bg;
-  color: @fg;
+  background-color: @accent;
+  color: @dark-bg;
 }
 
 #workspaces button.active {
-  background-color: @rd1;
+  background-color: @accent;
   color: @dark-bg;
   min-width: 30px;
   background-size: 400% 400%;
 }
 
 #workspaces button.urgent {
-  color: #ff0000;
-  background-color: #f9e2af;
+  color: #FF0040;
+  background-color: #240037;
 }
 
 #workspaces button.empty {
-  color: #6c7086;
+  color: #663388;
 }
 
 #tray,
@@ -107,17 +106,16 @@ window#waybar.hidden {
 #tray-expander,
 #disk,
 #idle_inhibitor {
-  background-color: @dark-bg;
+  background-color: @surface;
   color: @fg;
   margin: 2px;
-  padding: 0 15px;
+  padding: 2px 15px;
   border-radius: 20px;
   opacity: 0.9;
-  padding: 2px 15px;
 }
 
 #custom-omarchy {
-  color: @rd1;
+  color: @accent;
   padding: 0 12px;
   font-size: 12px;
 }
@@ -132,11 +130,11 @@ window#waybar.hidden {
 
 #custom-update,
 #custom-updatespacman {
-  color: @rd1;
+  color: @accent;
 }
 
 #cava {
-  color: @rd1;
+  color: @accent;
   padding: 0 12px;
 }
 
@@ -163,18 +161,18 @@ window#waybar.hidden {
 #custom-gpu:hover,
 #disk:hover,
 #idle_inhibitor:hover {
-  background-color: @hover-bg;
-  color: @rd1;
+  background-color: @accent;
+  color: @dark-bg;
 }
 
 #battery.charging,
 #battery.plugged {
-  color: #a6e3a1;
+  color: #00FF41;
 }
 
 #battery.critical:not(.charging) {
-  background-color: #f38ba8;
-  color: @dark-bg;
+  background-color: #FF0040;
+  color: @fg;
   animation-name: blink;
   animation-duration: 0.5s;
   animation-timing-function: linear;
@@ -183,11 +181,11 @@ window#waybar.hidden {
 }
 
 #disk.warning {
-  color: #f9e2af;
+  color: @fg;
 }
 
 #disk.critical {
-  color: #f38ba8;
+  color: #FF0040;
   animation-name: blink;
   animation-duration: 0.5s;
   animation-timing-function: linear;
@@ -196,8 +194,8 @@ window#waybar.hidden {
 }
 
 #temperature.critical {
-  color: #f38ba8;
-  background-color: rgba(243, 139, 168, 0.2);
+  color: #FF0040;
+  background-color: rgba(255, 0, 64, 0.2);
 }
 
 #mpris {
@@ -205,13 +203,13 @@ window#waybar.hidden {
 }
 
 #mpris:hover {
-  background-color: @hover-bg;
-  color: @rd1;
+  background-color: @accent;
+  color: @dark-bg;
 }
 
 @keyframes blink {
   to {
     background-color: @fg;
-    color: #f38ba8;
+    color: #FF0040;
   }
 }

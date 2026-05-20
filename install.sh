@@ -62,6 +62,9 @@ cp config/kitty/kitty.conf "${HOME}/.config/kitty/"
 mkdir -p "${HOME}/.config/alacritty"
 cp config/alacritty/alacritty.toml "${HOME}/.config/alacritty/"
 
+mkdir -p "${HOME}/.config/foot"
+[ -f config/foot/foot.ini ] && cp config/foot/foot.ini "${HOME}/.config/foot/"
+
 omarchy restart terminal 2>/dev/null || echo "[!] Run 'omarchy restart terminal' manually"
 
 # Apply Fastfetch
