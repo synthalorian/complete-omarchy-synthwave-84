@@ -49,7 +49,7 @@ Rectangle {
             Text {
                 text: "\uf023"
                 color: "#FFFF66"
-                font.family: "JetBrainsMono Nerd Font"
+                font.family: "3270 Nerd Font"
                 font.pixelSize: root.height * 0.025
                 anchors.verticalCenter: parent.verticalCenter
             }
@@ -57,9 +57,9 @@ Rectangle {
             Rectangle {
                 width: root.width * 0.17
                 height: root.height * 0.04
-color: "#240037"
+                color: "#0D0221"
                 border.color: "#FFFF66"
-                border.width: 1
+                border.width: 2
                 clip: true
 
                 TextInput {
@@ -68,11 +68,11 @@ color: "#240037"
                     anchors.margins: root.height * 0.008
                     verticalAlignment: TextInput.AlignVCenter
                     echoMode: TextInput.Password
-                    font.family: "JetBrainsMono Nerd Font"
+                    font.family: "3270 Nerd Font"
                     font.pixelSize: root.height * 0.02
                     font.letterSpacing: root.height * 0.004
                     passwordCharacter: "\u2022"
-                    color: "#ffffff"
+                    color: "#FFFF66"
                     focus: true
 
                     Keys.onPressed: {
@@ -89,7 +89,7 @@ color: "#240037"
             id: errorMessage
             text: ""
             color: "#FF0040"
-            font.family: "JetBrainsMono Nerd Font"
+            font.family: "3270 Nerd Font"
             font.pixelSize: root.height * 0.018
             anchors.horizontalCenter: parent.horizontalCenter
         }

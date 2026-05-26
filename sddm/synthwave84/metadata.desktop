@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=Omarchy
-Description=Minimal terminal-style login theme matching the Limine bootloader aesthetic
-Author=Omarchy
+Name=synthwave84
+Description=Synthwave '84 neon login theme — yellow input field, deep purple backdrop
+Author=Omarchy / synthclaw
 Type=sddm-theme
 Version=1.0
