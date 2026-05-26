@@ -40,8 +40,10 @@ window#waybar.hidden {
 .modules-left,
 .modules-center,
 .modules-right {
-  background: transparent;
+  background-color: @surface;
+  border-radius: 20px;
   margin: 5px;
+  padding: 2px;
 }
 
 #workspaces {
@@ -111,7 +113,6 @@ window#waybar.hidden {
   margin: 2px;
   padding: 2px 15px;
   border-radius: 20px;
-  opacity: 0.9;
 }
 
 #custom-omarchy {
