@@ -3,8 +3,8 @@
     "format": "{}°",
     "tooltip": true,
     "interval": 300,
-    "exec": "wttrbar --nerd --fahrenheit --location \"Lakeland\"",
+    "exec": "wttrbar --nerd --fahrenheit --location \"YourCity\"",
     "return-type": "json",
-    "on-click": "curl -s 'wttr.in/Lakeland?format=3' | xargs -I {} notify-send 'Weather' {}"
+    "on-click": "curl -s 'wttr.in/YourCity?format=3' | xargs -I {} notify-send 'Weather' {}"
   }
 }

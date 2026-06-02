@@ -1,6 +1,6 @@
-# Complete Omarchy Synthwave '84
+# Complete Omarchy Synthwave '84 🎹🦈🌆
 
-A synthwave-inspired Omarchy Linux theme featuring deep purples, electric magentas, and hot pinks.
+A fully realized synthwave-inspired Omarchy Linux theme featuring deep purples, electric magentas, and hot pinks. Born from the VHS tracking static of 1984.
 
 ## One-Command Install
 
@@ -19,16 +19,22 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 
 ### Theme: Synthwave '84
 
-- Deep purple background (#240037)
-- Electric purple borders (#8f00ff)
-- Hot pink highlights (#ff007f)
-- Magenta text accents (#ff00ff)
-- Cyan accents (#00ffff)
+| Role | Hex | Description |
+|------|-----|-------------|
+| Background | `#0D0221` | Deepest background / scaffold |
+| Surface | `#240037` | Card backgrounds, base surface |
+| Primary | `#8F00FF` | Electric purple — main accent |
+| Secondary | `#FF00FF` | Hot pink — complementary accent |
+| Accent/cyan | `#00FFFF` | Data streams, tertiary |
+| Text | `#FFFFFF` | White text |
+| Success | `#00FF41` | Lime green |
+| Warning | `#FFFF66` | Yellow |
+| Error | `#FF0040` | Red |
 
 ### Components Themed
 
-- **Hyprland** — window manager (borders, colors)
-- **Waybar** — status bar (3270 Nerd Font, custom styling, purple/magenta accent)
+- **Hyprland** — window manager (borders, colors, active border glow)
+- **Waybar** — status bar (3270 Nerd Font, custom styling, magenta/yellow accent, cava audio viz, GPU monitor, MPRIS, network speed, weather)
 - **SDDM** — login screen (purple bg, magenta frame, dark purple logo)
 - **Plymouth** — boot splash theme
 - **Mako** — notification daemon
@@ -39,7 +45,10 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 - **Ghostty** — terminal
 - **Kitty** — terminal
 - **btop** — system monitor
+- **Helix** — editor colorscheme
 - **Neovim** — editor colorscheme
+- **Obsidian** — note-taking app theme
+- **Gum** — charmbracelet gum styling
 
 ### Fonts & Cursors
 
@@ -59,16 +68,41 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 │       ├── backgrounds/
 │       ├── alacritty.toml
 │       ├── btop.theme
+│       ├── colors.toml
+│       ├── foot.ini
+│       ├── ghostty.conf
+│       ├── gum.env.conf
+│       ├── helix.toml
 │       ├── hyprland.conf
+│       ├── hyprland-preview-share-picker.css
 │       ├── hyprlock.conf
+│       ├── keyboard.rgb
+│       ├── kitty.conf
 │       ├── mako.ini
 │       ├── neovim.lua
+│       ├── obsidian.css
 │       ├── swayosd.css
 │       ├── walker.css
 │       └── waybar.css
 ├── config/
 │   ├── hypr/          # User Hyprland overrides
+│   │   ├── autostart.conf
+│   │   ├── bindings.conf
+│   │   ├── envs.conf
+│   │   ├── hypridle.conf
+│   │   ├── hyprland.conf
+│   │   ├── hyprlock.conf
+│   │   ├── hyprsunset.conf
+│   │   ├── input.conf
+│   │   ├── looknfeel.conf
+│   │   └── monitors.conf (user-specific, not in repo)
 │   ├── waybar/        # Waybar config
+│   │   ├── config.jsonc
+│   │   ├── style.css
+│   │   ├── cava.sh
+│   │   ├── net_speed.sh
+│   │   ├── waybar-gpu.sh
+│   │   └── modules/
 │   ├── ghostty/
 │   ├── kitty/
 │   ├── alacritty/
@@ -84,6 +118,16 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 - Arch Linux based
 - Hyprland window manager
 
+## Waybar Features
+
+The included Waybar config is feature-rich:
+
+- **Left**: Omarchy menu, workspace pills, active window, cava audio visualizer, MPRIS media player
+- **Center**: Clock, calendar launcher, weather (wttrbar), network speed, update notifier
+- **Right**: Tray expander, idle inhibitor, temperature, network, disk, memory, GPU, CPU, wireplumber volume, battery
+
+All modules styled with synthwave84 color variables and hover effects.
+
 ## Screenshots
 
 See `themes/synthwave84/README.md`.
@@ -98,4 +142,4 @@ See `themes/synthwave84/README.md`.
 
 ---
 
-*Write the future in the present while preserving the past.*
+*Write the future in the present while preserving the past.* 🎹🦈🌆

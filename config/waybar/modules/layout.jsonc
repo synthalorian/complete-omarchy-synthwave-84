@@ -11,7 +11,7 @@
     "custom/calendar",
     "custom/weather",
     "custom/netspeed",
-    "custom/updatespacman",
+    "custom/updatesspacman",
     "custom/update"
   ],
   "modules-right": [
