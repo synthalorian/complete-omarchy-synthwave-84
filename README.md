@@ -91,6 +91,7 @@ See `themes/synthwave84/README.md`.
 ## Credits
 
 - [Omarchy](https://omarchy.org/)
+- [omacom-io/omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) — Original Omarchy synthwave theme that inspired this project
 - [Phinger Cursors](https://github.com/Philogag/PhingerCursors)
 - [Candy Icons](https://github.com/Elena-atanuka/Candy-icons)
 - 3270 Nerd Font (via `nerd-fonts`)
