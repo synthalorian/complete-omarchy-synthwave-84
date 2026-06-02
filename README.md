@@ -1,6 +1,6 @@
 # Complete Omarchy Synthwave '84
 
-My personal Omarchy Linux setup featuring the **Synthwave '84** theme — deep purples, electric magentas, and hot pinks straight out of a neon-soaked 1984 that never was.
+A synthwave-inspired Omarchy Linux theme featuring deep purples, electric magentas, and hot pinks.
 
 ## One-Command Install
 
@@ -22,14 +22,14 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 - Deep purple background (#240037)
 - Electric purple borders (#8f00ff)
 - Hot pink highlights (#ff007f)
-- Neon yellow accents (#ffff66)
+- Magenta text accents (#ff00ff)
 - Cyan accents (#00ffff)
 
 ### Components Themed
 
 - **Hyprland** — window manager (borders, colors)
-- **Waybar** — status bar (3270 Nerd Font, custom styling, purple/yellow accent)
-- **SDDM** — login screen (purple bg, yellow frame, dark purple logo)
+- **Waybar** — status bar (3270 Nerd Font, custom styling, purple/magenta accent)
+- **SDDM** — login screen (purple bg, magenta frame, dark purple logo)
 - **Plymouth** — boot splash theme
 - **Mako** — notification daemon
 - **SwayOSD** — on-screen display
