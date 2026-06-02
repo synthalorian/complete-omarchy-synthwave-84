@@ -19,7 +19,7 @@ ascii_max_range = 7
 EOF
 
 # kill cava when waybar kills this script
-trap "kill 0" EXIT
+trap 'kill $(jobs -p) 2>/dev/null' EXIT
 
 pause_start=0
 
