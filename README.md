@@ -13,6 +13,27 @@ Or clone and run:
 git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.complete-omarchy-synthwave-84 && ~/.complete-omarchy-synthwave-84/install.sh
 ```
 
+## One-Command Uninstall
+
+```bash
+curl -sL https://raw.githubusercontent.com/synthalorian/complete-omarchy-synthwave-84/master/uninstall.sh | bash
+```
+
+Or run locally:
+```bash
+~/.complete-omarchy-synthwave-84/uninstall.sh
+```
+
+The uninstaller will:
+- Back up your current configs to `~/.config/omarchy-backup-<timestamp>/`
+- Reset Omarchy theme to default
+- Remove all Synthwave '84 user configs (Hyprland, Waybar, terminals, etc.)
+- Remove the Synthwave Night cursor theme
+- Revert SDDM and Plymouth themes to Omarchy defaults
+- Reload Hyprland and restart Waybar
+
+**Note:** SDDM and Plymouth themes installed to system directories (`/usr/share/...`) require manual removal with `sudo` — the uninstaller will warn you if they're still present.
+
 ---
 
 ## What's Included
