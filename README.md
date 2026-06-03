@@ -152,6 +152,7 @@ See `themes/synthwave84/README.md`.
 
 - [Omarchy](https://omarchy.org/)
 - [omacom-io/omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) — Original Omarchy synthwave theme that inspired this project
+- [gupta-akshay/omarchy-waybar-config](https://github.com/gupta-akshay/omarchy-waybar-config) — Waybar config structure and module layout
 - [Synthwave Night Cursors](https://www.rw-designer.com/cursor-set/synthwave-night) by 4DCube — Converted to Linux XCursor format for this theme
 - [Candy Icons](https://github.com/Elena-atanuka/Candy-icons)
 - 3270 Nerd Font (via `nerd-fonts`)
