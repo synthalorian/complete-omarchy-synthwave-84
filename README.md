@@ -157,6 +157,8 @@ See `themes/synthwave84/README.md`.
 - [Candy Icons](https://github.com/Elena-atanuka/Candy-icons)
 - 3270 Nerd Font (via `nerd-fonts`)
 
+**This theme configuration assembled and maintained by [synthalorian](https://github.com/synthalorian)** — Customized Limine bootloader entries, Plymouth/SDDM recoloring, cursor conversion, and full Omarchy integration.
+
 ---
 
 *Write the future in the present while preserving the past.* 🎹🦈🌆
