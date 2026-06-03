@@ -35,8 +35,8 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 
 - **Hyprland** — window manager (borders, colors, active border glow)
 - **Waybar** — status bar (3270 Nerd Font, custom styling, magenta/yellow accent, cava audio viz, GPU monitor, MPRIS, network speed, weather)
-- **SDDM** — login screen (purple bg, magenta frame, dark purple logo)
-- **Plymouth** — boot splash theme
+- **SDDM** — login screen (deep purple bg `#0D0221`, yellow frame `#FFFF66`, electric purple logo `#8F00FF`)
+- **Plymouth** — boot splash theme (deep purple background, recolored assets)
 - **Mako** — notification daemon
 - **SwayOSD** — on-screen display
 - **Walker** — app launcher
@@ -50,10 +50,16 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 - **Obsidian** — note-taking app theme
 - **Gum** — charmbracelet gum styling
 
-### Fonts & Cursors
+### Cursor Theme: Synthwave Night
+
+The included **Synthwave Night** cursor theme is a converted Windows cursor set originally by [4DCube](https://www.rw-designer.com/cursor-set/synthwave-night), adapted for Linux XCursor format. It features neon synthwave-styled pointers that match the overall aesthetic.
+
+- Inherits from `phinger-cursors-dark` for any missing cursors
+- Install location: `~/.local/share/icons/synthwave-night/`
+
+### Fonts & Icons
 
 - **3270 Nerd Font** — terminal font
-- **Phinger Cursors** — mouse pointer (dark variant)
 - **Candy Icons** — icon pack
 
 ## Directory Structure
@@ -63,6 +69,10 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 ├── install.sh          # One-command installer
 ├── README.md
 ├── SETUP.md
+├── cursors/
+│   └── synthwave-night/   # Synthwave Night XCursor theme
+│       ├── cursors/
+│       └── index.theme
 ├── themes/
 │   └── synthwave84/    # Main theme
 │       ├── backgrounds/
@@ -108,7 +118,7 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 │   ├── alacritty/
 │   ├── fastfetch/
 │   └── starship/
-├── sddm/              # SDDM theme
+├── sddm/              # SDDM login theme
 └── plymouth/          # Plymouth boot splash
 ```
 
@@ -128,6 +138,12 @@ The included Waybar config is feature-rich:
 
 All modules styled with synthwave84 color variables and hover effects.
 
+## Important: Autostart Config
+
+Your user `~/.config/hypr/autostart.conf` should **only contain overrides**, not copies of the default autostart. The default autostart at `~/.local/share/omarchy/default/hypr/autostart.conf` already launches waybar, mako, hypridle, swaybg, etc. Duplicating these entries causes double instances of every service.
+
+The included `config/hypr/autostart.conf` in this repo contains only the cursor theme override as an example.
+
 ## Screenshots
 
 See `themes/synthwave84/README.md`.
@@ -136,7 +152,7 @@ See `themes/synthwave84/README.md`.
 
 - [Omarchy](https://omarchy.org/)
 - [omacom-io/omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) — Original Omarchy synthwave theme that inspired this project
-- [Phinger Cursors](https://github.com/Philogag/PhingerCursors)
+- [Synthwave Night Cursors](https://www.rw-designer.com/cursor-set/synthwave-night) by 4DCube — Converted to Linux XCursor format for this theme
 - [Candy Icons](https://github.com/Elena-atanuka/Candy-icons)
 - 3270 Nerd Font (via `nerd-fonts`)
 
