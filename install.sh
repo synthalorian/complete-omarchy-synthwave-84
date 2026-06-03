@@ -22,7 +22,7 @@ cd "$DIR"
 
 # Install packages
 echo "[*] Installing packages..."
-yay -Sy --noconfirm nerd-fonts-git phinger-cursor-themes candy-icons-git btop 2>/dev/null || sudo pacman -S --noconfirm btop
+yay -Sy --noconfirm nerd-fonts-git candy-icons-git btop 2>/dev/null || sudo pacman -S --noconfirm btop
 
 # Refresh font cache
 fc-cache -f
@@ -81,9 +81,13 @@ echo "[*] Applying Neovim colorscheme..."
 mkdir -p "${HOME}/.config/nvim/lua/plugins"
 cp "themes/${THEME_NAME}/neovim.lua" "${HOME}/.config/nvim/lua/plugins/synthwave84.lua"
 
+# Install cursor theme
+echo "[*] Installing Synthwave Night cursor theme..."
+mkdir -p "${HOME}/.local/share/icons"
+cp -r "cursors/synthwave-night" "${HOME}/.local/share/icons/"
+
 # Set cursor theme
-echo "[*] Setting cursor theme..."
-hyprctl setcursor phinger-cursors-dark 24 2>/dev/null || echo "[!] Run 'hyprctl setcursor phinger-cursors-dark 24' manually"
+hyprctl setcursor synthwave-night 24 2>/dev/null || echo "[!] Run 'hyprctl setcursor synthwave-night 24' manually"
 
 # Set SDDM theme
 echo "[*] Setting up SDDM theme..."

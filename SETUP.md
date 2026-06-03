@@ -28,9 +28,6 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 # Fonts
 yay -S nerd-fonts-git
 
-# Phinger Cursors (mouse theme)
-yay -S phinger-cursor-themes
-
 # Candy Icons (icon pack)
 yay -S candy-icons-git
 
@@ -80,14 +77,31 @@ cp ~/dotfiles/config/fastfetch/config.jsonc ~/.config/fastfetch/
 cp ~/dotfiles/config/starship/starship.toml ~/.config/
 ```
 
-### 4. SDDM Theme
+### 4. Cursor Theme
+
+```bash
+# Install cursor theme
+cp -r ~/dotfiles/cursors/synthwave-night ~/.local/share/icons/
+
+# Set active cursor
+hyprctl setcursor synthwave-night 24
+```
+
+Add to `~/.config/hypr/looknfeel.conf`:
+```hyprlang
+exec-once = hyprctl setcursor synthwave-night 24
+env = XCURSOR_THEME,synthwave-night
+env = XCURSOR_SIZE,24
+```
+
+### 5. SDDM Theme
 
 ```bash
 sudo cp -r ~/dotfiles/sddm/synthwave84 /usr/share/sddm/themes/
 echo -e "[Theme]\nCurrent=synthwave84" | sudo tee /etc/sddm.conf
 ```
 
-### 5. Plymouth Boot Splash
+### 6. Plymouth Boot Splash
 
 ```bash
 sudo cp -r ~/dotfiles/plymouth/synthwave84 /usr/share/plymouth/themes/
@@ -95,22 +109,11 @@ sudo cp -r ~/dotfiles/plymouth/synthwave84 /usr/share/plymouth/themes/
 sudo mkinitcpio -P
 ```
 
-### 6. Neovim Colorscheme
+### 7. Neovim Colorscheme
 
 ```bash
 mkdir -p ~/.config/nvim/lua/plugins
 cp ~/dotfiles/themes/synthwave84/neovim.lua ~/.config/nvim/lua/plugins/synthwave84.lua
-```
-
-### 7. Cursor Theme
-
-```bash
-hyprctl setcursor phinger-cursors-dark 24
-```
-
-Add to `~/.config/hypr/autostart.conf`:
-```
-exec-once = hyprctl setcursor phinger-cursors-dark 24
 ```
 
 ---
@@ -122,7 +125,8 @@ exec-once = hyprctl setcursor phinger-cursors-dark 24
 | Waybar won't restart | `omarchy restart waybar` |
 | Config errors | `hyprctl reload && hyprctl configerrors` |
 | Font not found | `fc-list \| grep 3270 && fc-cache -f` |
-| Cursor not applied | `hyprctl setcursor phinger-cursors-dark 24` |
+| Cursor not applied | `hyprctl setcursor synthwave-night 24` |
+| Duplicate waybar on boot | Check `~/.config/hypr/autostart.conf` — only add overrides, don't copy defaults |
 
 ---
 
@@ -138,5 +142,5 @@ Edit theme files in `~/.config/omarchy/themes/synthwave84/`:
 
 - [Omarchy](https://omarchy.org/)
 - [Hyprland Wiki](https://wiki.hyprland.org/)
-- [Phinger Cursors](https://github.com/Philogag/PhingerCursors)
+- [Synthwave Night Cursors](https://www.rw-designer.com/cursor-set/synthwave-night)
 - [Candy Icons](https://github.com/Elena-atanuka/Candy-icons)

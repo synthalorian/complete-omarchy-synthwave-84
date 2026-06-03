@@ -5,7 +5,7 @@ Rectangle {
     id: root
     width: 640
     height: 480
-    color: "#240037"
+    color: "#0D0221"
 
     property string currentUser: userModel.lastUser
     property int sessionIndex: {
