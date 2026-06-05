@@ -1,5 +1,5 @@
-Window.SetBackgroundTopColor(0.051, 0.008, 0.129);
-Window.SetBackgroundBottomColor(0.051, 0.008, 0.129);
+Window.SetBackgroundTopColor(0.141, 0.000, 0.212);
+Window.SetBackgroundBottomColor(0.141, 0.000, 0.212);
 
 logo.image = Image("logo.png");
 logo.sprite = Sprite(logo.image);
