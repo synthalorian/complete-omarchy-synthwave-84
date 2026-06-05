@@ -42,12 +42,12 @@ The uninstaller will:
 
 | Role | Hex | Description |
 |------|-----|-------------|
-| Background | `#0D0221` | Deepest background / scaffold |
-| Surface | `#240037` | Card backgrounds, base surface |
-| Primary | `#8F00FF` | Electric purple — main accent |
+| Background | `#240036` | Deepest background / scaffold |
+| Surface | `#8F00FF` | Electric purple — card/module backgrounds |
+| Primary | `#240037` | Deep purple — main text color |
 | Secondary | `#FF00FF` | Hot pink — complementary accent |
-| Accent/cyan | `#00FFFF` | Data streams, tertiary |
-| Text | `#FFFFFF` | White text |
+| Accent/cyan | `#03EDF9` | Data streams, tertiary |
+| Text | `#8F00FF` | Electric purple text |
 | Success | `#00FF41` | Lime green |
 | Warning | `#FFFF66` | Yellow |
 | Error | `#FF0040` | Red |
@@ -56,7 +56,7 @@ The uninstaller will:
 
 - **Hyprland** — window manager (borders, colors, active border glow)
 - **Waybar** — status bar (3270 Nerd Font, custom styling, magenta/yellow accent, cava audio viz, GPU monitor, MPRIS, network speed, weather)
-- **SDDM** — login screen (deep purple bg `#0D0221`, yellow frame `#FFFF66`, electric purple logo `#8F00FF`)
+- **SDDM** — login screen (deep purple bg `#240036`, electric purple frame `#8F00FF`, electric purple logo `#8F00FF`)
 - **Plymouth** — boot splash theme (deep purple background, recolored assets)
 - **Mako** — notification daemon
 - **SwayOSD** — on-screen display
@@ -178,7 +178,7 @@ See `themes/synthwave84/README.md`.
 - [Candy Icons](https://github.com/Elena-atanuka/Candy-icons)
 - 3270 Nerd Font (via `nerd-fonts`)
 
-**This theme configuration assembled and maintained by [synthalorian](https://github.com/synthalorian)** — Customized Limine bootloader entries, Plymouth/SDDM recoloring, cursor conversion, and full Omarchy integration.
+**This theme configuration assembled and maintained by the Omarchy community.** — Customized Limine bootloader entries, Plymouth/SDDM recoloring, cursor conversion, and full Omarchy integration.
 
 ---
 
