@@ -25,7 +25,7 @@ mkdir -p "$BACKUP_DIR"
 # ─── Backup current configs ───
 echo "[*] Backing up current configs..."
 [ -d ~/.config/hypr ] && cp -r ~/.config/hypr "$BACKUP_DIR/"
-[ -d ~/.config/waybar ] && cp -r ~/.config/waybar "$BACKUP_DIR/"
+[ -d ~/.config/quickshell ] && cp -r ~/.config/quickshell "$BACKUP_DIR/"
 [ -d ~/.config/omarchy/themes ] && cp -r ~/.config/omarchy/themes "$BACKUP_DIR/"
 [ -d ~/.local/share/icons/synthwave-night ] && cp -r ~/.local/share/icons/synthwave-night "$BACKUP_DIR/"
 
@@ -39,7 +39,6 @@ rm -rf "${HOME}/.config/omarchy/themes/${THEME_NAME}"
 
 # ─── Reset Hyprland config to Omarchy defaults ───
 echo "[*] Resetting Hyprland config..."
-# These are user overrides — removing them lets Omarchy defaults take over
 rm -f ~/.config/hypr/autostart.conf
 rm -f ~/.config/hypr/bindings.conf
 rm -f ~/.config/hypr/envs.conf
@@ -51,9 +50,13 @@ rm -f ~/.config/hypr/input.conf
 rm -f ~/.config/hypr/looknfeel.conf
 # monitors.conf is user-specific, keep it
 
-# ─── Reset Waybar to Omarchy defaults ───
-echo "[*] Resetting Waybar config..."
-rm -rf ~/.config/waybar/*
+# ─── Remove Quickshell config ───
+echo "[*] Removing Quickshell config..."
+rm -rf ~/.config/quickshell/*
+
+# ─── Re-enable Waybar ───
+echo "[*] Re-enabling Waybar..."
+rm -f ~/.local/state/omarchy/toggles/waybar-off
 omarchy refresh waybar 2>/dev/null || echo "[!] Run 'omarchy refresh waybar' manually"
 
 # ─── Reset terminal configs to Omarchy defaults ───
@@ -124,7 +127,8 @@ echo "Manual steps may be needed:"
 echo "  - Remove SDDM theme: sudo rm -rf /usr/share/sddm/themes/${THEME_NAME}"
 echo "  - Remove Plymouth theme: sudo rm -rf /usr/share/plymouth/themes/${THEME_NAME}"
 echo "  - Rebuild initramfs: sudo mkinitcpio -P"
-echo "  - Reboot to see SDDM/Plymouth changes"
+echo "  - Revert Limine config from backup at ${BACKUP_DIR}"
+echo "  - Reboot to see SDDM/Plymouth/Limine changes"
 echo ""
 echo "Your original configs are backed up at:"
 echo "  ${BACKUP_DIR}"
