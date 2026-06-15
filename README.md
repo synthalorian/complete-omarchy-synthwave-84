@@ -54,7 +54,7 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 
 - **3270 Nerd Font** — terminal font
 - **Phinger Cursors** — mouse pointer (dark variant)
-- **Candy Icons** — icon pack
+- **Cyberpunk Technotronic Rebuilt** — icon pack (rebuilt from dreifacherspass's original with fixed SVG dimensions, 64px support, and corrected symlinks)
 
 ## Directory Structure
 
@@ -108,6 +108,9 @@ git clone https://github.com/synthalorian/complete-omarchy-synthwave-84.git ~/.c
 │   ├── alacritty/
 │   ├── fastfetch/
 │   └── starship/
+├── icons/             # Rebuilt cyberpunk-technotronic icon theme
+│   ├── build-icon-theme.sh
+│   └── README.md
 ├── sddm/              # SDDM theme
 └── plymouth/          # Plymouth boot splash
 ```
@@ -137,7 +140,8 @@ See `themes/synthwave84/README.md`.
 - [Omarchy](https://omarchy.org/)
 - [omacom-io/omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) — Original Omarchy synthwave theme that inspired this project
 - [Phinger Cursors](https://github.com/Philogag/PhingerCursors)
-- [Candy Icons](https://github.com/Elena-atanuka/Candy-icons)
+- [Cyberpunk Technotronic](https://store.kde.org/p/1333537/) — Original icon theme by [dreifacherspass](https://www.pling.com/u/dreifacherspass/)
+- **synthalorian** — Rebuilt the icon theme with proper SVG dimensions, 64px size directories, fixed broken symlinks, and corrected tiny icon paths
 - 3270 Nerd Font (via `nerd-fonts`)
 
 ---
