@@ -5,7 +5,7 @@ Rectangle {
     id: root
     width: 640
     height: 480
-    color: "#240037"
+    color: "#240036"
 
     property string currentUser: userModel.lastUser
     property int sessionIndex: {
@@ -48,7 +48,7 @@ Rectangle {
 
             Text {
                 text: "\uf023"
-                color: "#FFFF66"
+                color: "#8F00FF"
                 font.family: "3270 Nerd Font"
                 font.pixelSize: root.height * 0.025
                 anchors.verticalCenter: parent.verticalCenter
@@ -57,8 +57,8 @@ Rectangle {
             Rectangle {
                 width: root.width * 0.17
                 height: root.height * 0.04
-                color: "#0D0221"
-                border.color: "#FFFF66"
+                color: "#240036"
+                border.color: "#8F00FF"
                 border.width: 2
                 clip: true
 
@@ -72,7 +72,7 @@ Rectangle {
                     font.pixelSize: root.height * 0.02
                     font.letterSpacing: root.height * 0.004
                     passwordCharacter: "\u2022"
-                    color: "#FFFF66"
+                    color: "#8F00FF"
                     focus: true
 
                     Keys.onPressed: {
