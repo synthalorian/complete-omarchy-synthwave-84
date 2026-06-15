@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg width="22" height="22" viewBox="0 0 16 16"
+   version="1.1"
+   id="svg8"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #0abdc6; } .ColorScheme-Highlight { color:#5294e2; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ad6c16; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#09D4DF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#9269F4; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1AD6AB; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#b800ff; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0575E6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #FF8501; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #FFCB01; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #b2ced6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #6da5b7; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #df5940; stop-opacity:1"/>
+      <stop offset="25%" style="stop-color: #d8d15f; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #e9882a; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #279362; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #f618c7; stop-opacity:1"/>
+      <stop offset="20%" style="stop-color: #94ffab; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #fbfd54; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #0f83ae; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path
+     d="M 2.5844361,3.7533777 2.0378277,3.2397186 1.493559,3.7528654 c 0.038363,0.038606 0.4729845,0.3338564 0.5442687,0.3849098"
+     style="display:inline;opacity:0.8;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00145262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     id="path1-5"
+     class="ColorScheme-Text" />
+  <path
+     style="opacity:0.7;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00288396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="m 1.250625,2.35601 0.792,-0.7855447 0.79,0.7754246 z"
+     id="path918"
+     class="ColorScheme-Text" />
+  <path
+     id="path920"
+     class="ColorScheme-Text"
+     d="m 3.164,1.52583 -1.122,0.0441 0.79,0.77581 z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00290524;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.8" />
+  <path
+     style="opacity:0.8;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="m 3.1636612,1.52583 -1.122,0.0441 0.473,-0.67605 z"
+     id="path922"
+     class="ColorScheme-Text" />
+  <path
+     id="path924"
+     class="ColorScheme-Text"
+     d="M 3.164,1.52583 3.006,0.99193 2.515,0.89383 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.9" />
+  <path
+     id="path926"
+     class="ColorScheme-Text"
+     d="M 1.25,2.35601 2.037,3.23855 2.832,2.34574 Z"
+     style="opacity:0.7;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00145263;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+  <path
+     style="opacity:0.8;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00145263;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 1.25,2.35601 2.037,3.23855 0.787,3.09436 C 0.877,2.81274 1.065,2.58597 1.25,2.35601 Z"
+     id="path928"
+     class="ColorScheme-Text" />
+  <path
+     id="path930"
+     class="ColorScheme-Text"
+     d="M 1.488299,3.7654839 2.0376705,3.2387891 0.77532775,3.0908422 C 0.96013472,3.3209762 1.1550405,3.550002 1.488299,3.7654839 Z"
+     style="opacity:0.9;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00147868;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+  <path
+     id="path932"
+     class="ColorScheme-Text"
+     d="M 1.567,0.89421 2.042,1.56993 2.515,0.89388 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.7" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.8"
+     d="M 1.567,0.89421 2.042,1.56983 0.92,1.52473 Z"
+     id="path934"
+     class="ColorScheme-Text" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.958"
+     d="M 0.782,1.48252 1.08,0.98653 0.92,1.5247 Z"
+     id="path936"
+     class="ColorScheme-Text" />
+  <path
+     id="path938"
+     d="M 0.782,1.48252 0.579,2.08689 0.92,1.5247 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00290524;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.958"
+     class="ColorScheme-Text" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00290524;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.9"
+     d="M 1.25,2.35601 0.579,2.08689 0.92,1.5247 Z"
+     id="path940"
+     class="ColorScheme-Text" />
+  <path
+     id="path942"
+     class="ColorScheme-Text"
+     d="M 1.25,2.35601 0.579,2.08689 0.539,2.59247 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00145263;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.9" />
+  <path
+     style="opacity:0.9;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00145263;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 1.25,2.35601 C 1.06,2.58599 0.882,2.82138 0.787,3.09436 0.673,2.94825 0.591,2.78215 0.535,2.59247 Z"
+     id="path944"
+     class="ColorScheme-Text" />
+  <path
+     style="opacity:0.8;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00145263;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 3.302,3.08485 2.037,3.23855 2.832,2.34574 c 0.188,0.23544 0.402,0.46215 0.47,0.73911 z"
+     id="path946"
+     class="ColorScheme-Text"/>
+  <path
+     id="path948"
+     class="ColorScheme-Text"
+     d="M 3.3030618,3.08485 C 3.4145819,2.9523357 3.5010758,2.8050531 3.5479805,2.5986036 L 2.832,2.34574 C 3.0083976,2.5838 3.2329036,2.80215 3.3030618,3.08485 Z"
+     style="opacity:0.9;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00145427;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00145263;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.9"
+     d="M 3.52,2.1697 3.55,2.59952 2.828,2.34574 Z"
+     id="path950"
+     class="ColorScheme-Text" />
+  <path
+     id="path952"
+     class="ColorScheme-Text"
+     d="M 3.52,2.1697 3.164,1.52583 2.832,2.34574 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00290524;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.9" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00290524;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:1"
+     d="M 3.52,2.1697 3.164,1.52583 3.3,1.48143 Z"
+     id="path954"
+     class="ColorScheme-Text" />
+  <path
+     id="path956"
+     class="ColorScheme-Text"
+     d="M 3.006,0.99193 3.164,1.52583 3.3,1.48143 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:1" />
+  <path
+     id="path958"
+     class="ColorScheme-Text"
+     d="M 3.310898,3.08485 2.037,3.239372 2.5878476,3.7557289 C 2.8798875,3.5667033 3.1115053,3.3370416 3.310898,3.08485 Z"
+     style="opacity:0.9;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00146162;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+  <path
+     id="path960"
+     class="ColorScheme-Text"
+     d="M 1.25,2.35601 2.042,1.56983 0.92,1.52473 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00290524;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.8" />
+  <path
+     id="path962"
+     class="ColorScheme-Text"
+     d="M 0.782,1.48252 1.08,0.98653 1.1,0.87465 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.958" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:1"
+     d="m 3.006,0.99193 0.03,-0.0721 0.265,0.56162 z"
+     id="path964"
+     class="ColorScheme-Text" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00762628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.958"
+     d="m 1.938,0.3764 0.1,-0.0778 0.101,0.076 z"
+     id="path966"
+     class="ColorScheme-Text" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00472102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.9"
+     d="M 2.485,0.50486 3.006,0.99193 2.515,0.89383 Z"
+     id="path968"
+     class="ColorScheme-Text" />
+  <path
+     id="path970"
+     class="ColorScheme-Text"
+     d="m 2.485,0.50486 -0.444,0.009 0.474,0.37958 z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00472102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.7" />
+  <path
+     style="opacity:0.9;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke-width:0.00767135;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 2.4922641,0.5043009 2.0456399,0.5133539 2.1361719,0.37284834 Z"
+     id="path972"
+     class="ColorScheme-Text" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00472102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.9"
+     d="M 1.567,0.89421 2.041,0.5143 2.515,0.89388 Z"
+     id="path974"
+     class="ColorScheme-Text" />
+  <path
+     id="path976"
+     class="ColorScheme-Text"
+     d="M 1.567,0.89421 2.041,0.5143 1.606,0.5013 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00472102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.7" />
+  <path
+     style="opacity:0.9;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00769762;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 1.9411059,0.37575495 2.0450695,0.51494505 1.606,0.50182343 Z"
+     id="path978"
+     class="ColorScheme-Text" />
+  <path
+     id="path980"
+     class="ColorScheme-Text"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00472102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.9"
+     d="M 1.6061035 0.5012614 L 1.0800375 0.98650311 L 1.5880168 0.68057862 L 1.6061035 0.5012614 z M 1.5880168 0.68057862 L 1.3931966 0.92707521 L 1.5668295 0.89400229 L 1.5880168 0.68057862 z " />
+  <path
+     id="path982"
+     class="ColorScheme-Text"
+     d="m 1.9415608,0.3764 0.103,0.1379 0.09,-0.13968 z"
+     style="opacity:0.9;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00762628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+  <path
+     id="path984"
+     class="ColorScheme-Text"
+     d="M 1.608,0.42942 1.08,0.98653 1.606,0.50132 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00472102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.958" />
+  <path
+     id="path986"
+     class="ColorScheme-Text"
+     d="M 2.485,0.50486 3.006,0.99193 2.588,0.35598 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00472102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.7" />
+  <path
+     id="path988"
+     class="ColorScheme-Text"
+     d="M 2.485,0.50486 2.123,0.32171 2.133,0.37461 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00762628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.958" />
+  <path
+     id="path990"
+     class="ColorScheme-Text"
+     d="M 1.938,0.3764 1.948,0.3191 1.604,0.50128 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00762628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.958" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00472102;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.808"
+     d="M 2.485,0.50486 2.291,0.02606 2.588,0.35598 Z"
+     id="path992"
+     class="ColorScheme-Text" />
+  <path
+     id="path994"
+     class="ColorScheme-Text"
+     d="M 1.781,0.30207 2.009,0.0014 1.793,0.13165 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00326386;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.958" />
+  <path
+     id="path996"
+     class="ColorScheme-Text"
+     d="m 2.165,0.18183 -0.09,0.0377 -0.01,-0.0992 z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00604467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.958" />
+  <path
+     id="path998"
+     class="ColorScheme-Text"
+     d="M 1.588,0.68045 1.08,0.98653 0.92,1.5247 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;opacity:0.7" />
+  <path
+     style="opacity:0.9;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00363156;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     d="m 1.3919999,0.92732 0.175,-0.0331 L 0.92,1.52471 Z"
+     id="path1000"
+     class="ColorScheme-Text" />
+  <path
+     id="path895"
+     style="display:inline;opacity:1;fill:url(#oomox);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00145263;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     class="ColorScheme-Text"
+     d="m 0.54673666,2.4608317 c -7.4578e-4,-0.00372 -0.004465,0.03613 -0.009819,0.1312582 l 0.002067,-5.168e-4 c 0.00627,-0.07975 0.008497,-0.1270261 0.007751,-0.1307414 z m -0.0103353,0.1369426 c -0.00217,0.040299 -0.003617,0.080209 -0.003617,0.1193726 0,0.835253 0.67707634,1.5161865 1.51205244,1.5161865 0.8359729,0 1.5130859,-0.6809335 1.5130859,-1.5161865 -0.00186,-0.03655 -0.00737,-0.086458 -0.00981,-0.1229738 -0.00165,0.00453 -0.00917,0.04049 -0.010362,0.045145 -0.027176,0.1059436 -0.074901,0.2097144 -0.1591432,0.3382788 -0.010633,0.016228 -0.021158,0.032723 -0.032556,0.049093 -0.00142,0.00201 -0.0027,0.0042 -0.00413,0.0062 -7.659e-4,0.00109 -0.00181,0.00201 -0.00258,0.0031 C 3.0238445,3.4841717 2.4357239,3.93276 2.0696411,3.9212149 1.6280545,3.9072885 1.1016496,3.5234175 0.79736736,3.1073039 0.79388899,3.1030515 0.79050245,3.0986382 0.78703208,3.0943848 0.67407969,2.9496187 0.59235952,2.7852827 0.53640136,2.5977743 Z" />
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>dreifacherspass</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

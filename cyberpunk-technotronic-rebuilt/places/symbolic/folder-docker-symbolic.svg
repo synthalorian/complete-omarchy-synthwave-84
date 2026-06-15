@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 16 16"
+   version="1.1"
+   id="svg_docker"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #0abdc6; } .ColorScheme-Highlight { color:#5294e2; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ad6c16; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#09D4DF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#9269F4; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1AD6AB; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#b800ff; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="oomox_highlight" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop style="stop-color:#41ff00;stop-opacity:1;" offset="0" id="stop9" />
+      <stop style="stop-color:#e7ff00;stop-opacity:1;" offset="1" id="stop10" />
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0575E6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #FF8501; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #FFCB01; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #b2ced6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #6da5b7; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #df5940; stop-opacity:1"/>
+      <stop offset="25%" style="stop-color: #d8d15f; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #e9882a; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #279362; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #f618c7; stop-opacity:1"/>
+      <stop offset="20%" style="stop-color: #94ffab; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #fbfd54; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #0f83ae; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="90ssummer_highlight" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="1e-07" stop-color="#FF57DB"/>
+      <stop offset="0.5" stop-color="#FF51FF"/>
+      <stop offset="1" stop-color="#F50FF5"/>
+    </linearGradient>
+    <linearGradient
+      id="linearGradient2284"
+      gradientTransform="matrix(1.6440072,0,0,0.60826983,-38.207552,-69.729474)"
+      x1="0"
+      y1="132.57439"
+      x2="77.858536"
+      y2="132.57439"
+      gradientUnits="userSpaceOnUse">
+      <stop
+        style="stop-color:#41ff00;stop-opacity:1;"
+        offset="0"
+        id="stop2280" />
+      <stop
+        style="stop-color:#e7ff00;stop-opacity:1;"
+        offset="1"
+        id="stop2282" />
+      </linearGradient>
+    </defs>
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>dreifacherspass</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path_docker"
+     class="ColorScheme-Text"
+     style="fill:url(#oomox);stroke-width:1.48571"
+     d="M 15.739724,6.8743013 C 15.347398,6.6102153 14.316733,6.4974296 13.567524,6.6994157 13.527309,5.953058 13.142122,5.3240023 12.438119,4.7751214 L 12.177586,4.6002357 12.00391,4.8626588 c -0.34142,0.5181899 -0.485358,1.2088693 -0.434446,1.8367417 0.04022,0.3868575 0.17466,0.8215318 0.434446,1.1370134 -0.975233,0.5657729 -1.874332,0.4372936 -5.8556742,0.4372936 H 0.0013504 c -0.01776458,0.8990983 0.12658061,2.6282975 1.2262331,4.0360685 0.1215916,0.155608 0.2545991,0.305965 0.3992284,0.450855 0.8941053,0.895292 2.2450111,1.55195 4.2649463,1.553612 3.0817711,0.003 5.7219628,-1.663056 7.3281568,-5.6905524 0.528418,0.00877 1.92358,0.094684 2.606409,-1.2245735 C 15.842949,7.3768166 16,7.0493835 16,7.0493835 L 15.739694,6.8744977 Z M 4.0129184,6.0522857 H 2.2844341 v 1.7284841 h 1.7284843 z m 2.2328709,0 H 4.517305 v 1.7284841 h 1.7284843 z m 2.2331125,0 H 6.7504177 v 1.7284841 h 1.7284841 z m 2.2331092,0 H 8.9835308 v 1.7284841 h 1.7284802 z m -8.9322053,0 H 0.05131779 V 7.7807698 H 1.7798057 Z M 4.0129184,3.8691404 H 2.2844341 v 1.7284841 h 1.7284843 z m 2.2328709,0 H 4.517305 v 1.7284841 h 1.7284843 z m 2.2331125,0 H 6.7504177 v 1.7284841 h 1.7284841 z m 0,-2.1833874 H 6.7504177 v 1.7284842 h 1.7284841 z" />
+</svg>

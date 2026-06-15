@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24" height="24" viewBox="0 0 16 16" version="1.1"
+   id="svg2816"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #0abdc6; } .ColorScheme-Highlight { color:#5294e2; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ad6c16; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#09D4DF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#9269F4; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1AD6AB; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#b800ff; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0575E6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #FF8501; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #FFCB01; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #b2ced6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #6da5b7; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #df5940; stop-opacity:1"/>
+      <stop offset="25%" style="stop-color: #d8d15f; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #e9882a; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #279362; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #f618c7; stop-opacity:1"/>
+      <stop offset="20%" style="stop-color: #94ffab; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #fbfd54; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #0f83ae; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata2821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>dreifacherspass</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="M 7.9052551,2.9965903 C 6.7383752,3.9490342 5.5231365,5.1560406 4.7650658,6.3079934 4.0069948,7.4601067 3.549561,8.4634083 3.2601681,9.4508423 2.9710961,10.438276 2.9438264,11.503922 3.1234323,12.366802 c 0.179446,0.862722 0.5970758,1.773129 1.3750488,2.077448 0.7779735,0.30416 2.0729838,0.03354 3.0007095,-0.320699 0.9275652,-0.354076 1.6130709,-0.948141 2.121715,-1.70605 0.5088054,-0.758071 0.4962164,-1.742761 0.8353664,-2.161682 0.33915,-0.419081 1.029876,-0.2722339 1.089745,0.366259 0.05987,0.638333 -0.229524,1.705539 -0.673323,2.508551 -0.443799,0.802852 -1.0423277,1.341511 -1.8451797,1.795423 -0.8030123,0.45375 -1.8105097,0.822915 -2.822822,0.977481 C 5.1922193,16.058101 4.36277,16.060846 3.5697086,15.656852 2.7768083,15.252858 1.9889898,14.223141 1.7148453,13.08098 1.4405399,11.938978 1.3978307,10.747303 1.7419572,9.2810797 2.0860826,7.8146953 2.8481877,6.2930664 3.9653115,4.8717842 5.0825946,3.4503417 6.6484928,2.00402 7.9951396,1.1512507 9.3416259,0.2984813 10.468701,0.03910336 11.361436,0.00411287 c 0.892735,-0.0348315 1.551132,0.15472847 2.064751,0.4489359 0.51378,0.29420846 0.993469,0.71536383 1.068265,1.06446473 C 14.569243,1.8666144 14.17274,2.387166 13.674047,2.2375741 13.175194,2.0879831 12.485769,1.3344977 11.443442,1.3844146 10.401115,1.4343347 9.0722966,2.043986 7.9052561,2.9965903"
+     style="display:inline;fill:url(#oomox);fill-opacity:1;stroke:none;stroke-width:0.516023;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path_G_01"
+     class="ColorScheme-Text" />
+  <path
+     d="M 6.0774375,12.112648 C 5.7283366,11.963057 5.6286623,11.434349 6.06251,10.980599 6.4963582,10.526687 7.4638894,10.147732 8.5161679,9.6739182 9.5686069,9.2001041 10.705634,8.6315912 11.458728,8.6564696 c 0.753094,0.025038 1.403855,0.7372273 1.4687,1.6550014 0.06484,0.917613 -0.143324,2.13441 -0.387614,3.002268 -0.244452,0.867857 -0.274573,1.292533 -0.608747,1.447101 -0.334174,0.154567 -0.940933,0.226864 -0.92103,-0.590915 0.0199,-0.817939 0.353564,-2.463502 0.463349,-3.171655 0.109787,-0.708152 -0.348832,-0.760815 -0.722811,-0.656165 -0.374139,0.104811 -0.8827846,0.30432 -1.426419,0.563697 -0.5436344,0.259218 -1.1220987,0.578465 -1.7106748,0.85277 -0.5884156,0.274305 -1.1869432,0.503668 -1.5360441,0.354076"
+     style="display:inline;fill:url(#oomox);fill-opacity:1;stroke:none;stroke-width:0.516023;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path_G_02"
+     class="ColorScheme-Text" />
+</svg>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg 
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg27"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #0abdc6; } .ColorScheme-Highlight { color:#5294e2; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ad6c16; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#09D4DF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#9269F4; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1AD6AB; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#b800ff; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0575E6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #FF8501; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #FFCB01; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #b2ced6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #6da5b7; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #df5940; stop-opacity:1"/>
+      <stop offset="25%" style="stop-color: #d8d15f; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #e9882a; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #279362; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #f618c7; stop-opacity:1"/>
+      <stop offset="20%" style="stop-color: #94ffab; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #fbfd54; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #0f83ae; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path
+     d="M 5.653125,8.173125 C 3.733125,8.173125 1.866875,8.386875 0,8.6 H 10.633125 C 9.269375,8.359375 7.4412499,8.1737501 5.653125,8.173125 Z M 10.633125,8.6 H 0 v 3.703125 C 0,12.910626 0.50937504,13.4 1.1425,13.4 H 14.856875 C 15.490626,13.4 16,12.910626 16,12.303125 V 9.88 C 15.306875,9.773125 14.613125,9.666875 13.866875,9.453125 13.12,9.24 12.32,8.92 10.933125,8.653125 10.838125,8.635 10.73375,8.6175 10.633125,8.6 Z m 0,0"
+     id="path_meadow"
+     class="ColorScheme-Text"
+     style="fill:url(#oomox);stroke-width:0.16" />
+  <path
+     d="M 2.9212499,3.48 C 2.664375,3.48 2.431875,3.613125 2.325,3.819375 2.255625,3.7875 2.1787501,3.7712499 2.100625,3.770625 1.8412499,3.771249 1.626875,3.949375 1.61,4.178125 c -6.24e-4,0 -0.00125,0 -0.00188,0 -0.181245,0 -0.32812,0.13 -0.32812,0.29125 C 1.28,4.63 1.426875,4.76 1.608125,4.76 H 3.4462499 C 3.6637501,4.76 3.84,4.6037501 3.84,4.410625 c 0,-0.148125 -0.105625,-0.28 -0.2637501,-0.32875 6.24e-4,-0.00688 0.00125,-0.013125 0.00125,-0.02 C 3.5775,3.740625 3.2837501,3.48 2.9212499,3.48 Z m 0,0"
+     id="path_left_cloud"
+     class="ColorScheme-Text"
+     style="fill:url(#oomox);stroke-width:0.16" />
+  <path
+     d="M 6.1212499,5.4 C 5.864375,5.4 5.631875,5.533125 5.525,5.739375 5.455625,5.7075 5.3787501,5.6912499 5.300625,5.690625 5.0412499,5.691249 4.826875,5.869375 4.81,6.098125 c -6.24e-4,0 -0.00125,0 -0.00188,0 -0.181245,0 -0.32812,0.13 -0.32812,0.29125 C 4.48,6.55 4.626875,6.68 4.808125,6.68 H 6.6462499 C 6.8637501,6.68 7.04,6.5237501 7.04,6.330625 c 0,-0.148125 -0.105625,-0.28 -0.2637501,-0.32875 6.24e-4,-0.00688 0.00125,-0.013125 0.00125,-0.02 C 6.7775,5.660625 6.4837501,5.4 6.1212499,5.4 Z m 0,0"
+     id="path_middle_cloud"
+     class="ColorScheme-Text"
+     style="fill:url(#oomox);stroke-width:0.16" />
+  <path
+     d="M 9.3212499,4.12 C 9.064375,4.12 8.831875,4.253125 8.725,4.459375 8.655625,4.4275 8.5787501,4.4112499 8.500625,4.410625 8.2412499,4.411249 8.026875,4.589375 8.01,4.818125 c -6.24e-4,0 -0.00125,0 -0.00188,0 -0.181245,0 -0.32812,0.13 -0.32812,0.29125 C 7.68,5.27 7.826875,5.4 8.008125,5.4 H 9.8462499 C 10.06375,5.4 10.24,5.2437501 10.24,5.050625 c 0,-0.148125 -0.105625,-0.28 -0.2637501,-0.32875 6.24e-4,-0.00688 0.00125,-0.013125 0.00125,-0.02 C 9.9775,4.380625 9.6837501,4.12 9.3212499,4.12 Z m 0,0"
+     id="path_right_cloud"
+     class="ColorScheme-Text"
+     style="fill:url(#oomox);stroke-width:0.16" />
+  <path
+     d="m 15.28,4.52 c 0,1.060625 -0.859374,1.92 -1.92,1.92 -1.060625,0 -1.92,-0.859375 -1.92,-1.92 0,-1.060625 0.859375,-1.92 1.92,-1.92 1.060626,0 1.92,0.859375 1.92,1.92 z m 0,0"
+     id="path_sun"
+     class="ColorScheme-Text"
+     style="fill:url(#oomox);stroke-width:0.16" />
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>dreifacherspass</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
