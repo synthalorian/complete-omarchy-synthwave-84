@@ -22,7 +22,19 @@ cd "$DIR"
 
 # Install packages
 echo "[*] Installing packages..."
-yay -Sy --noconfirm nerd-fonts-git phinger-cursor-themes candy-icons-git btop 2>/dev/null || sudo pacman -S --noconfirm btop
+yay -Sy --noconfirm nerd-fonts-git phinger-cursor-themes btop 2>/dev/null || sudo pacman -S --noconfirm btop
+
+# Install icon theme
+echo "[*] Installing Cyberpunk Technotronic Rebuilt icon theme..."
+if [ -d "icons/cyberpunk-technotronic-rebuilt" ]; then
+    rm -rf "${HOME}/.icons/cyberpunk-technotronic-rebuilt"
+    cp -r "icons/cyberpunk-technotronic-rebuilt" "${HOME}/.icons/"
+    gtk-update-icon-cache -f "${HOME}/.icons/cyberpunk-technotronic-rebuilt" 2>/dev/null || true
+    gsettings set org.gnome.desktop.interface icon-theme 'cyberpunk-technotronic-rebuilt' 2>/dev/null || true
+    echo "[*] Icon theme installed"
+else
+    echo "[!] Icon theme not found. Run 'icons/build-icon-theme.sh' first if you have the source."
+fi
 
 # Refresh font cache
 fc-cache -f
