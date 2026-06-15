@@ -22,7 +22,19 @@ cd "$DIR"
 
 # Install packages
 echo "[*] Installing packages..."
-yay -Sy --noconfirm nerd-fonts-git candy-icons-git btop 2>/dev/null || sudo pacman -S --noconfirm btop
+yay -Sy --noconfirm nerd-fonts-git phinger-cursor-themes btop 2>/dev/null || sudo pacman -S --noconfirm btop
+
+# Install icon theme
+echo "[*] Installing Cyberpunk Technotronic Rebuilt icon theme..."
+if [ -d "icons/cyberpunk-technotronic-rebuilt" ]; then
+    rm -rf "${HOME}/.icons/cyberpunk-technotronic-rebuilt"
+    cp -r "icons/cyberpunk-technotronic-rebuilt" "${HOME}/.icons/"
+    gtk-update-icon-cache -f "${HOME}/.icons/cyberpunk-technotronic-rebuilt" 2>/dev/null || true
+    gsettings set org.gnome.desktop.interface icon-theme 'cyberpunk-technotronic-rebuilt' 2>/dev/null || true
+    echo "[*] Icon theme installed"
+else
+    echo "[!] Icon theme not found. Run 'icons/build-icon-theme.sh' first if you have the source."
+fi
 
 # Refresh font cache
 fc-cache -f
@@ -40,18 +52,19 @@ echo "[*] Applying Hyprland config..."
 mkdir -p "${HOME}/.config/hypr"
 cp -r config/hypr/*.conf "${HOME}/.config/hypr/"
 
-# Apply Waybar
-echo "[*] Applying Waybar config..."
-mkdir -p "${HOME}/.config/waybar"
-cp config/waybar/config.jsonc "${HOME}/.config/waybar/"
-cp config/waybar/style.css "${HOME}/.config/waybar/"
-cp -r config/waybar/modules "${HOME}/.config/waybar/"
-[ -f config/waybar/cava.sh ] && cp config/waybar/cava.sh "${HOME}/.config/waybar/"
-[ -f config/waybar/net_speed.sh ] && cp config/waybar/net_speed.sh "${HOME}/.config/waybar/"
-[ -f config/waybar/waybar-gpu.sh ] && cp config/waybar/waybar-gpu.sh "${HOME}/.config/waybar/"
-omarchy restart waybar 2>/dev/null || echo "[!] Run 'omarchy restart waybar' manually"
+# Disable Waybar and enable Quickshell
+echo "[*] Disabling Waybar, enabling Quickshell..."
+mkdir -p "${HOME}/.local/state/omarchy/toggles"
+touch "${HOME}/.local/state/omarchy/toggles/waybar-off"
 
-# Apply terminal configs
+# Apply Quickshell
+echo "[*] Applying Quickshell config..."
+mkdir -p "${HOME}/.config/quickshell/scripts"
+cp config/quickshell/shell.qml "${HOME}/.config/quickshell/"
+cp config/quickshell/scripts/*.sh "${HOME}/.config/quickshell/scripts/"
+chmod +x "${HOME}/.config/quickshell/scripts/"*.sh
+
+# Apply terminal configs (Ghostty as default)
 echo "[*] Applying terminal configs..."
 mkdir -p "${HOME}/.config/ghostty"
 cp config/ghostty/config "${HOME}/.config/ghostty/"
@@ -104,16 +117,31 @@ fi
 
 # Set Plymouth theme
 echo "[*] Setting up Plymouth theme..."
-if [ -d "plymouth/${THEME_NAME}" ]; then
-    sudo cp -r "plymouth/${THEME_NAME}" /usr/share/plymouth/themes/
+if [ -d "plymouth" ]; then
+    sudo mkdir -p /usr/share/plymouth/themes/${THEME_NAME}
+    sudo cp plymouth/*.{png,script,plymouth} /usr/share/plymouth/themes/${THEME_NAME}/ 2>/dev/null || true
     if [ -f /etc/plymouth/plymouthd.conf ]; then
         sudo sed -i "s/^Theme=.*/Theme=${THEME_NAME}/" /etc/plymouth/plymouthd.conf 2>/dev/null || true
     fi
     echo "[*] Plymouth theme installed (rebuild initramfs with 'sudo mkinitcpio -P' to apply)"
 fi
 
+# Set Limine bootloader theme
+echo "[*] Setting up Limine bootloader theme..."
+if [ -f "limine/limine.conf.template" ]; then
+    echo "[!] Limine config must be merged manually at /boot/limine.conf"
+    echo "    Back up your current /boot/limine.conf, then copy the theme"
+    echo "    header from limine/limine.conf.template to your config."
+fi
+
 # Reload Hyprland config
 hyprctl reload 2>/dev/null || echo "[!] Run 'hyprctl reload' manually"
+
+# Restart Quickshell
+echo "[*] Restarting Quickshell..."
+pkill quickshell 2>/dev/null || true
+sleep 1
+quickshell &
 
 echo ""
 echo "═══════════════════════════════════════════════"
@@ -121,6 +149,5 @@ echo "  Installation complete!"
 echo "═══════════════════════════════════════════════"
 echo ""
 echo "Run 'hyprctl reload' to apply Hyprland changes."
-echo "Run 'omarchy restart waybar' to apply Waybar changes."
 echo "Run 'sudo mkinitcpio -P' to apply Plymouth boot splash."
-echo "Restart to see SDDM theme."
+echo "Restart to see SDDM and Limine themes."
