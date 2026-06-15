@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg viewBox="0 0 16 16"
+   id="svg7887"
+   version="1.1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #0abdc6; } .ColorScheme-Highlight { color:#5294e2; }
+    </style>
+    <linearGradient id="arrongin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dd9b44; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ad6c16; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#09D4DF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#9269F4; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cyberneon" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#ea00d9; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="fitdance" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1AD6AB; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#329DB6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="oomox" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0abdc6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#b800ff; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="rainblue" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F260; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0575E6; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #FF8501; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #FFCB01; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="telinkrin" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #b2ced6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #6da5b7; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="60spsycho" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #df5940; stop-opacity:1"/>
+      <stop offset="25%" style="stop-color: #d8d15f; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #e9882a; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #279362; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="90ssummer" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #f618c7; stop-opacity:1"/>
+      <stop offset="20%" style="stop-color: #94ffab; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color: #fbfd54; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color: #0f83ae; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata7892">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>dreifacherspass</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:evenodd;stroke:url(#oomox);stroke-width:0.318302px;stroke-linecap:butt;stroke-linejoin:miter"
+     d="m 1.4368471,10.665997 v 4.949778 l 4.9497768,-4.949778 z"
+     id="path_left_wing"
+     class="ColorScheme-Text" />
+  <rect
+     style="fill:url(#oomox);stroke-width:0.263404;stroke-miterlimit:4;stroke-dasharray:none"
+     id="rect_center"
+     class="ColorScheme-Text"
+     width="2.7303636"
+     height="2.7303636"
+     x="-9.5012121"
+     y="-10.498854"
+     transform="scale(-1)" />
+  <path
+     id="path_right_wing"
+     class="ColorScheme-Text"
+     d="m 5.8716723,3.8842451 3.5000208,3.5000211 -3e-7,-7.00004164 z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:evenodd;stroke:url(#oomox);stroke-width:0.318302px;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:evenodd;stroke:url(#oomox);stroke-width:0.22504px;stroke-linecap:butt;stroke-linejoin:miter"
+     d="m 12.247789,10.492449 2.474515,2.474516 V 8.0179357 Z"
+     id="path_tail"
+     class="ColorScheme-Text" />
+  <path
+     style="fill:url(#oomox);fill-rule:evenodd;stroke:url(#oomox);stroke-width:0.159151px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 9.5807878,10.419919 H 12.055677 L 9.5807878,7.9450308 Z"
+     id="path_middle_left_triangle"
+     class="ColorScheme-Text" />
+  <path
+     id="path_middle_right_triangle"
+     d="M 6.691273,7.8398457 H 4.2163844 L 6.691273,10.314734 Z"
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:evenodd;stroke:url(#oomox);stroke-width:0.159151px;stroke-linecap:butt;stroke-linejoin:miter" />
+  <path
+     style="fill:url(#oomox);fill-opacity:1;fill-rule:evenodd;stroke:url(#oomox);stroke-width:0.159151px;stroke-linecap:butt;stroke-linejoin:miter"
+     d="m 1.4726071,5.0960433 2.4694121,2.469412 v -2.469412 z m 2.6258082,0.1070078 v 2.4776435 h 2.4776434 z"
+     id="path_head"
+     class="ColorScheme-Text" />
+</svg>
