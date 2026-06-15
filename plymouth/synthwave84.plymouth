@@ -6,6 +6,6 @@ ModuleName=script
 [script]
 ImageDir=/usr/share/plymouth/themes/synthwave84
 ScriptFile=/usr/share/plymouth/themes/synthwave84/synthwave84.script
-ConsoleLogBackgroundColor=0x240037
+ConsoleLogBackgroundColor=0x240036
 MonospaceFont=Cantarell 11
 Font=Cantarell 11
