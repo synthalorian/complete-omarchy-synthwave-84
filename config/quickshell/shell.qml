@@ -37,7 +37,7 @@ ShellRoot {
 
     // Font
     property string fontFamily: "3270 Nerd Font"
-    property int fontSize: 13
+    property int fontSize: 14
 
     // Stats properties
     property string cpuText: "0%"
@@ -347,7 +347,7 @@ ShellRoot {
     // Idle inhibitor check process
     Process {
         id: idleCheckProc
-        command: ["sh", "-c", "pgrep -x hypridle > /dev/null && echo active || echo inactive"]
+        command: ["sh", "-c", "systemctl --user is-active hypridle >/dev/null 2>&1 && echo active || echo inactive"]
         running: true
         stdout: SplitParser {
             onRead: data => {
@@ -471,6 +471,16 @@ cava -p $config_file"]
         return weeks;
     }
     property int calendarToday: new Date().getDate()
+
+    // Refresh calendarToday at midnight and every hour to catch date changes
+    Timer {
+        interval: 3600000  // 1 hour
+        running: true
+        repeat: true
+        onTriggered: {
+            shell.calendarToday = new Date().getDate();
+        }
+    }
 
     // Playerctl fallback process - polls for browser MPRIS that Quickshell misses
     Process {
@@ -1254,6 +1264,10 @@ cava -p $config_file"]
                                 source: shell.windowIconPath
                                 width: 16
                                 height: 16
+                                sourceSize.width: 64
+                                sourceSize.height: 64
+                                smooth: true
+                                mipmap: true
                             }
 
                             Text {
@@ -1289,6 +1303,7 @@ cava -p $config_file"]
                         Layout.preferredWidth: musicRow.width + 20
                         Layout.fillHeight: true
                         color: shell.surfaceColor
+                        visible: shell.hasMusic
 
                         Row {
                             id: musicRow
@@ -1348,16 +1363,6 @@ cava -p $config_file"]
                                 color: shell.fgColor
                                 elide: Text.ElideRight
                                 maximumLineCount: 1
-                                visible: shell.hasMusic
-                            }
-
-                            // No music fallback
-                            Text {
-                                text: "\uf001 No music"
-                                font.family: shell.fontFamily
-                                font.pixelSize: shell.fontSize
-                                color: shell.fgColor
-                                visible: !shell.hasMusic
                             }
                         }
                     }
@@ -1566,7 +1571,7 @@ cava -p $config_file"]
                             anchors.fill: parent
                             hoverEnabled: true
                             onClicked: {
-                                var proc = Qt.createQmlObject('import Quickshell.Io; Process { command: ["omarchy-toggle-idle"] }', shell);
+                                var proc = Qt.createQmlObject('import Quickshell.Io; Process { command: ["sh", "-c", "if systemctl --user is-active hypridle >/dev/null 2>&1; then systemctl --user stop hypridle; else systemctl --user start hypridle; fi"] }', shell);
                                 proc.running = true;
                                 idleCheckProc.running = true;
                             }
@@ -1894,9 +1899,9 @@ cava -p $config_file"]
                                 anchors.verticalCenter: parent.verticalCenter
                                 visible: (menuEntry.modelData.icon || "") !== ""
                                 source: menuEntry.modelData.icon || ""
-                                implicitSize: 14
-                                width: visible ? 14 : 0
-                                height: 14
+                                implicitSize: 18
+                                width: visible ? 18 : 0
+                                height: 18
                             }
 
                             // Text

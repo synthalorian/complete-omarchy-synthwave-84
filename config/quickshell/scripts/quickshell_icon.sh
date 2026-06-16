@@ -22,28 +22,42 @@ CLASS_LOWER=$(echo "$CLASS" | tr '[:upper:]' '[:lower:]')
     obs) ICON_NAME="com.obsproject.Studio" ;;
     spotify) ICON_NAME="spotify-client" ;;
     discord) ICON_NAME="discord" ;;
+    net.lutris.lutris) ICON_NAME="lutris" ;;
+    bolt) ICON_NAME="bolt-launcher" ;;
     *) ICON_NAME="$CLASS_LOWER" ;;
 esac
 
 # Find icon path
-for THEME in candy-icons breeze Adwaita hicolor; do
-    for DIR in apps/scalable devices/scalable; do
-        for EXT in svg png; do
-            PATH="/usr/share/icons/$THEME/$DIR/${ICON_NAME}.$EXT"
-            if [ -f "$PATH" ]; then
-                echo "$PATH"
-                exit 0
-            fi
+for THEME in cyberpunk-technotronic-rebuilt cyberpunk-technotronic-icon-theme candy-icons breeze Adwaita hicolor; do
+    for ICON_BASE in "$HOME/.icons" "/usr/share/icons"; do
+        [ -d "$ICON_BASE/$THEME" ] || continue
+        # Try sized icons first (largest to smallest)
+        for SIZE in 64 48 32 24 22 16; do
+            for EXT in png svg; do
+                for DIR in apps categories devices; do
+                    PATH="$ICON_BASE/$THEME/$DIR/$SIZE/${ICON_NAME}.$EXT"
+                    if [ -f "$PATH" ]; then
+                        echo "$PATH"
+                        exit 0
+                    fi
+                    # Try legacy size format (e.g., 48x48)
+                    PATH="$ICON_BASE/$THEME/$DIR/${SIZE}x${SIZE}/${ICON_NAME}.$EXT"
+                    if [ -f "$PATH" ]; then
+                        echo "$PATH"
+                        exit 0
+                    fi
+                done
+            done
         done
-    done
-    # Try sized directories
-    for SIZE in 256 128 64 48 32 24 22; do
-        for EXT in svg png; do
-            PATH="/usr/share/icons/$THEME/apps/${SIZE}x${SIZE}/${ICON_NAME}.$EXT"
-            if [ -f "$PATH" ]; then
-                echo "$PATH"
-                exit 0
-            fi
+        # Fallback to scalable
+        for DIR in apps/scalable categories/scalable devices/scalable; do
+            for EXT in png svg; do
+                PATH="$ICON_BASE/$THEME/$DIR/${ICON_NAME}.$EXT"
+                if [ -f "$PATH" ]; then
+                    echo "$PATH"
+                    exit 0
+                fi
+            done
         done
     done
 done
