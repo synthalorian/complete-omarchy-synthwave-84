@@ -1,5 +1,8 @@
 # Complete Omarchy Synthwave '84 🎹🦈🌆
 
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Omarchy%2FLinux-green.svg)
+
 A fully realized synthwave-inspired Omarchy Linux theme featuring deep purples, electric magentas, and hot pinks. Born from the VHS tracking static of 1984.
 
 ## One-Command Install (One-Liner)
