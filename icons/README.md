@@ -10,7 +10,7 @@ A rebuilt version of the [cyberpunk technotronic icon theme](https://store.kde.o
 
 ## Rebuild by
 
-- **synthalorian** — Rebuilt SVGs with proper width/height attributes, fixed broken symlinks, corrected tiny icon paths, added 64px size directories
+- **synth** — Rebuilt SVGs with proper width/height attributes, fixed broken symlinks, corrected tiny icon paths, added 64px size directories
 
 ## What Was Fixed
 

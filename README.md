@@ -193,11 +193,11 @@ See `themes/synthwave84/README.md`.
 - [omacom-io/omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) — Original Omarchy synthwave theme that inspired this project
 - [Phinger Cursors](https://github.com/Philogag/PhingerCursors)
 - [Cyberpunk Technotronic](https://store.kde.org/p/1333537/) — Original icon theme by [dreifacherspass](https://www.pling.com/u/dreifacherspass/)
-- **synthalorian** — Rebuilt the icon theme with proper SVG dimensions, 64px size directories, fixed broken symlinks, and corrected tiny icon paths
+- **synth** — Rebuilt the icon theme with proper SVG dimensions, 64px size directories, fixed broken symlinks, and corrected tiny icon paths
 - [Synthwave Night Cursors](https://www.rw-designer.com/cursor-set/synthwave-night) by 4DCube — Converted to Linux XCursor format for this theme
 - 3270 Nerd Font (via `nerd-fonts`)
 
-**Quickshell bar config, Limine bootloader theming, Plymouth/SDDM recoloring, cursor conversion, and full Omarchy integration by synth (synthalorian).**
+**Quickshell bar config, Limine bootloader theming, Plymouth/SDDM recoloring, cursor conversion, and full Omarchy integration by synth.**
 
 ---
 
