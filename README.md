@@ -197,7 +197,7 @@ See `themes/synthwave84/README.md`.
 - [Synthwave Night Cursors](https://www.rw-designer.com/cursor-set/synthwave-night) by 4DCube — Converted to Linux XCursor format for this theme
 - 3270 Nerd Font (via `nerd-fonts`)
 
-**Quickshell bar config, Limine bootloader theming, Plymouth/SDDM recoloring, cursor conversion, and full Omarchy integration by synth (synthalorian).**
+**Quickshell bar config, Limine bootloader theming, Plymouth/SDDM recoloring, cursor conversion, and full Omarchy integration by synthalorian 🎹🤺 (synthalorian).**
 
 ---
 
