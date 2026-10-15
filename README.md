@@ -1,3 +1,5 @@
+![complete-omarchy-synthwave-84](.github/preview.png)
+
 # Complete Omarchy Synthwave '84 🎹🦈🌆
 
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
